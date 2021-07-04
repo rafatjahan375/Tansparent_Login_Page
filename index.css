@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova:ital@1&family=Playfair+Display&display=swap');
+*{
+     margin: 0;
+     padding: 0;
+}
+
+body{
+    background-image:url(bg3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container{
+   
+        color: white;
+        position: absolute;
+        position: fixed;
+        top: 35%;
+        left: 35%;
+}
+
+.container h1{
+         font-family: 'Bona Nova', serif;
+         width: 25%;
+        display: inline;
+        font-size: 40px;
+        border-bottom:4px solid goldenrod;
+        margin-bottom: 15px;
+        padding:  13px 0;
+}
+
+.box{
+     width: 100%;
+     margin: 22px 0px;
+     height: auto;
+     border-bottom: 2px solid  goldenrod;
+   
+}
+
+.box input{
+      width: 75%;
+      margin: 12px 0;
+      font-size: 20px;
+      outline: none;
+      border: none;
+      color: white;
+      background: none;
+      font-family: 'Bona Nova', serif;
+      font-family: 'Playfair Display', serif;
+     
+}
+.box i{
+      width: 25px;
+      text-align: center;
+    
+
+}
+.btn{
+    color: white;
+    cursor: pointer;
+    outline: none;
+    margin: 12px 23px;
+    padding: 10px 21px;
+    border-radius: 4px;
+    border: 2px solid goldenrod;
+    font-size: 15px;
+    background: none;
+    font-weight: bold;
+    font-family: 'Bona Nova', serif;
+    font-family: 'Playfair Display', serif;
+}
+
+.btn:hover{
+    opacity: 0.5;
+      background: white;
+      color: goldenrod;
+
+}
